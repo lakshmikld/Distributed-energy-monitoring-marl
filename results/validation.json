@@ -1,0 +1,56 @@
+[
+ {
+  "model": "team_seed0.npz",
+  "uses_company_signal": false,
+  "status": "PASS",
+  "distributed": {
+   "energy_cost": 54868.3377202897,
+   "degradation": 508.4464650087814,
+   "co2_kg": 202045.77352767362,
+   "peak_kw": 2985.233751788184,
+   "demand_charge": 23881.87001430547,
+   "total_cost": 89360.94287598763
+  },
+  "in_process": {
+   "energy_cost": 54868.3377202897,
+   "degradation": 508.4464650087814,
+   "co2_kg": 202045.77352767362,
+   "peak_kw": 2985.233751788184,
+   "demand_charge": 23881.87001430547,
+   "total_cost": 89360.94287598763,
+   "unmanaged_peak_kw": 2791.1219514985096
+  },
+  "max_abs_metric_diff": 0.0,
+  "max_abs_hourly_aggregate_diff_kw": 0.0,
+  "wall_s": 0.23062630000003992,
+  "messages": 1008,
+  "mean_round_ms": 0.619676190516267
+ },
+ {
+  "model": "team_signal_seed0.npz",
+  "uses_company_signal": true,
+  "status": "PASS",
+  "distributed": {
+   "energy_cost": 54867.28204549556,
+   "degradation": 562.4142105263156,
+   "co2_kg": 201835.54256910595,
+   "peak_kw": 2981.1406805692623,
+   "demand_charge": 23849.125444554098,
+   "total_cost": 89370.59882903127
+  },
+  "in_process": {
+   "energy_cost": 54867.28204549556,
+   "degradation": 562.4142105263156,
+   "co2_kg": 201835.54256910595,
+   "peak_kw": 2981.1406805692623,
+   "demand_charge": 23849.125444554098,
+   "total_cost": 89370.59882903127,
+   "unmanaged_peak_kw": 2791.1219514985096
+  },
+  "max_abs_metric_diff": 0.0,
+  "max_abs_hourly_aggregate_diff_kw": 0.0,
+  "wall_s": 0.21595849999994243,
+  "messages": 1008,
+  "mean_round_ms": 0.5505749999526545
+ }
+]

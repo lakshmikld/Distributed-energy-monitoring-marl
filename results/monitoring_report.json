@@ -1,0 +1,89 @@
+{
+ "config": {
+  "seed": 50000,
+  "T": 672,
+  "start_hour": 0,
+  "start_dow": 0,
+  "fault_rate": 0.006,
+  "policy": "q",
+  "use_signal": false,
+  "init_soc": 0.5,
+  "outage": [
+   4,
+   400,
+   424
+  ]
+ },
+ "hours": 672,
+ "sites": 6,
+ "metrics": {
+  "energy_cost": 223319.3224484385,
+  "degradation": 2127.8898736746587,
+  "co2_kg": 821853.1508810289,
+  "peak_kw": 3835.3677798440604,
+  "demand_charge": 30682.942238752483,
+  "total_cost": 297222.81210491713
+ },
+ "detection": {
+  "true_positive_hours": 56,
+  "false_positive_hours": 0,
+  "false_negative_hours": 4,
+  "precision": 1.0,
+  "recall": 0.9333333333333333,
+  "f1": 0.9655172413793104,
+  "spike_recall": 0.9534883720930233,
+  "dropout_recall": 0.8823529411764706,
+  "spike_hours": 43,
+  "dropout_hours": 17,
+  "per_site": {
+   "Mumbai": {
+    "fault_hours": 6,
+    "detected": 5,
+    "false_alarms": 0
+   },
+   "Frankfurt": {
+    "fault_hours": 19,
+    "detected": 17,
+    "false_alarms": 0
+   },
+   "Austin": {
+    "fault_hours": 3,
+    "detected": 2,
+    "false_alarms": 0
+   },
+   "Sao Paulo": {
+    "fault_hours": 14,
+    "detected": 14,
+    "false_alarms": 0
+   },
+   "Tokyo": {
+    "fault_hours": 4,
+    "detected": 4,
+    "false_alarms": 0
+   },
+   "Johannesburg": {
+    "fault_hours": 14,
+    "detected": 14,
+    "false_alarms": 0
+   }
+  }
+ },
+ "events": [
+  {
+   "t": 400,
+   "site": "Tokyo",
+   "event": "offline (no report in 0.50s)"
+  },
+  {
+   "t": 424,
+   "site": "Tokyo",
+   "event": "rejoined"
+  }
+ ],
+ "backfilled_rows": 24,
+ "log_rows": 4032,
+ "wall_s": 1.7644263000001956,
+ "messages": 4009,
+ "mean_round_ms": 2.3924739583148513,
+ "p95_round_ms": 0.9014749999096224
+}
